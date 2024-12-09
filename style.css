@@ -22,6 +22,28 @@ h1 {
     margin-bottom: 20px;
 }
 
+#credit {
+    margin-top: 30px;
+    font-size: 1.1rem;
+    color: #2f4f4f;
+    font-weight: bold;
+    text-align: center; /* Center align */
+    background-color: #f1f8e9;
+    padding: 8px 15px;
+    border-radius: 8px;
+    display: inline-block;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+#credit:hover {
+    background-color: #e1f0d6;
+    transform: scale(1.05);
+    transition: transform 0.2s ease, background-color 0.3s ease;
+}
+
+
 p {
     font-size: 1.2rem;
     color: #444;
